@@ -1,7 +1,5 @@
 package com.gmail.mosoft521.ch05.noclassgc;
 
-import net.sf.cglib.beans.BeanGenerator;
-import net.sf.cglib.beans.BeanMap;
 import net.sf.cglib.core.NamingPolicy;
 import net.sf.cglib.core.Predicate;
 
@@ -21,8 +19,8 @@ public class CglibBean {
     }
 
 
-    public CglibBean(String className,Map propertyMap) {
-        this.object = generateBean(className,propertyMap);
+    public CglibBean(String className, Map propertyMap) {
+        this.object = generateBean(className, propertyMap);
     }
 
 
@@ -35,10 +33,10 @@ public class CglibBean {
         return this.object;
     }
 
-    private Object generateBean(final String className,Map propertyMap) {
+    private Object generateBean(final String className, Map propertyMap) {
         BeanGeneratorObj generator = new BeanGeneratorObj();
         generator.setUseCache(false);
-        generator.setClassLoader(new ClassLoader(){
+        generator.setClassLoader(new ClassLoader() {
 
         });
         generator.setNamingPolicy(new NamingPolicy() {
@@ -49,7 +47,7 @@ public class CglibBean {
         });
 
         Set keySet = propertyMap.keySet();
-        for (Iterator i = keySet.iterator(); i.hasNext();) {
+        for (Iterator i = keySet.iterator(); i.hasNext(); ) {
             String key = (String) i.next();
             generator.addProperty(key, (Class) propertyMap.get(key));
         }

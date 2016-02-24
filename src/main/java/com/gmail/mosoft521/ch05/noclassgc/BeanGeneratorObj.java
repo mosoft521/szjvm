@@ -1,22 +1,23 @@
 package com.gmail.mosoft521.ch05.noclassgc;
-import java.util.HashMap;
-import java.util.Map;
 
-import net.sf.cglib.asm.ClassVisitor;
-import net.sf.cglib.asm.Type;
 import net.sf.cglib.beans.BeanGenerator;
 import net.sf.cglib.core.ClassEmitter;
 import net.sf.cglib.core.Constants;
 import net.sf.cglib.core.EmitUtils;
+import org.objectweb.asm.ClassVisitor;
+import org.objectweb.asm.Type;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  */
-public class BeanGeneratorObj extends BeanGenerator{
+public class BeanGeneratorObj extends BeanGenerator {
+    private Map props = new HashMap();
+
     public BeanGeneratorObj() {
         super();
     }
-
-    private Map props = new HashMap();
 
     public void addProperty(String name, Class type) {
         super.addProperty(name, type);
