@@ -21,8 +21,8 @@ public class TestStackDeep {
 
     public static void main(String args[]) {
         try {
-//			recursion(0L,0L,0L);
-            recursion();
+//			recursion(0L,0L,0L);//1
+            recursion();//2
         } catch (Throwable e) {
             System.out.println("deep of calling = " + count);
             e.printStackTrace();
@@ -30,5 +30,27 @@ public class TestStackDeep {
     }
 }
 /*
+1
+-Xss128K
+deep of calling = 298
+java.lang.StackOverflowError
 
+-Xss256K
+deep of calling = 1929
+java.lang.StackOverflowError
+
+2
+-Xss128K
+deep of calling = 1822
+java.lang.StackOverflowError
+
+-Xss256K
+deep of calling = 3432
+java.lang.StackOverflowError
+第二次运行：
+java.lang.StackOverflowError
+deep of calling = 3779
+第三次运行：
+deep of calling = 3186
+java.lang.StackOverflowError
  */
