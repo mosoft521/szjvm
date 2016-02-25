@@ -1,12 +1,12 @@
 package com.gmail.mosoft521.ch11.inv.dyn;
 
-import jdk.internal.org.objectweb.asm.commons.GeneratorAdapter;
-import jdk.internal.org.objectweb.asm.commons.Method;
 import org.objectweb.asm.ClassWriter;
 import org.objectweb.asm.Handle;
 import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.Opcodes;
 import org.objectweb.asm.Type;
+import org.objectweb.asm.commons.GeneratorAdapter;
+import org.objectweb.asm.commons.Method;
 
 import java.io.File;
 import java.io.FileOutputStream;

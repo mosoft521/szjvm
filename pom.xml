@@ -27,11 +27,13 @@
             <artifactId>cglib</artifactId>
             <version>3.1</version>
         </dependency>
+
         <dependency>
             <groupId>org.ow2.asm</groupId>
-            <artifactId>asm</artifactId>
+            <artifactId>asm-all</artifactId>
             <version>5.0.3</version>
         </dependency>
+
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
