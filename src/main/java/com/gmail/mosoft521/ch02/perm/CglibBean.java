@@ -92,6 +92,3 @@ public class CglibBean {
         return generator.create();
     }
 }
-/*
-
- */
