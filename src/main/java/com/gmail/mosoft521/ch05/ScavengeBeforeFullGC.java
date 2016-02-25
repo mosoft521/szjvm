@@ -2,8 +2,8 @@ package com.gmail.mosoft521.ch05;
 
 /**
  * -XX:+PrintGCDetails  -XX:-ScavengeBeforeFullGC -XX:+UseParallelOldGC
- * <p/>
- * <p/>
+ * <p>
+ * <p>
  * -XX:+PrintGCDetails -XX:+UseSerialGC
  *
  * @author geym

@@ -3,12 +3,12 @@ package com.gmail.mosoft521.ch05;
 /**
  * 测试速度
  * -XX:-UseTLAB  -Xcomp -XX:-BackgroundCompilation -XX:-DoEscapeAnalysis -server
- * <p/>
+ * <p>
  * -XX:+UseTLAB  -Xcomp -XX:-BackgroundCompilation -XX:-DoEscapeAnalysis -server
- * <p/>
+ * <p>
  * 测试日志
  * -XX:+UseTLAB  -XX:+PrintTLAB -XX:+PrintGC -XX:TLABSize=307200 -XX:-ResizeTLAB
- * <p/>
+ * <p>
  * 使用 XX:TLABRefillWasteFraction 改变refill waste
  * -XX:+UseTLAB  -XX:+PrintTLAB -XX:+PrintGC -XX:TLABSize=102400 -XX:-ResizeTLAB -XX:TLABRefillWasteFraction=100 -XX:-DoEscapeAnalysis -server
  *

@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 /**
  * JDK1.6 1.7 -XX:+PrintGCDetails -XX:PermSize=5M -XX:MaxPermSize=5m
- * <p/>
+ * <p>
  * JDK1.8 -XX:+PrintGCDetails -XX:MaxMetaspaceSize=5M
  *
  * @author Geym

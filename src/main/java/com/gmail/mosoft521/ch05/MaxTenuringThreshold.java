@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * 最大的晋升年龄
  * MaxTenuringThreshold 默认值15
- * <p/>
+ * <p>
  * -Xmx1024M -Xms1024M -XX:+PrintGCDetails -XX:MaxTenuringThreshold=15 -XX:+PrintHeapAtGC
  *
  * @author geym

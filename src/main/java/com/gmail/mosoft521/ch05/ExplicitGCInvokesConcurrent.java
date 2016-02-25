@@ -3,7 +3,7 @@ package com.gmail.mosoft521.ch05;
 /**
  * -XX:+PrintGCDetails -XX:+ExplicitGCInvokesConcurrent -XX:+UseConcMarkSweepGC
  * -XX:+PrintGCDetails -XX:+ExplicitGCInvokesConcurrent -XX:+UseG1GC
- * <p/>
+ * <p>
  * ExplicitGCInvokesConcurrent 在System.gc()时会使用并发方式 回收
  *
  * @author geym

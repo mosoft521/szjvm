@@ -5,7 +5,7 @@ import java.util.HashMap;
 /**
  * noclassgc 不会回收perm
  * -XX:+PrintGCDetails -XX:PermSize=5M -XX:MaxPermSize=5m  -verbose:class -Xnoclassgc
- * <p/>
+ * <p>
  * Perm默认不用CMS，加了CMSClassUnloadingEnabled启用CMS回收Perm
  * -XX:+PrintGCDetails -XX:PermSize=5M -XX:MaxPermSize=5m  -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled
  *

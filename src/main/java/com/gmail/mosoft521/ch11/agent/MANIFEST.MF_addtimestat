@@ -1,0 +1,5 @@
+Manifest-Version: 1.0 
+Agent-Class: com.gmail.mosoft521.ch11.agent.PreMainAddTimeStatAgent
+Premain-Class: com.gmail.mosoft521.agent.PreMainAddTimeStatAgent
+Can-Redine-Classes: true
+Can-Retransform-Classes: true 

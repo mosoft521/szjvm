@@ -4,9 +4,9 @@ import java.util.Vector;
 
 /**
  * -Xmx20m -Xms5m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=d:/a.dump
- * <p/>
+ * <p>
  * -Xmx20m -Xms5m  "-XX:OnOutOfMemoryError=D:/tools/jdk1.7_40/bin/printstack.bat %p"  -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=d:/a.dump
- * <p/>
+ * <p>
  * printstack.bat:
  * D:/tools/jdk1.7_40/bin/jstack -F %1 > D:/a.txt
  *

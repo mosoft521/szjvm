@@ -2,7 +2,7 @@ package com.gmail.mosoft521.ch05;
 
 /**
  * 有了一个慢的finalize()会导致无法回收
- * <p/>
+ * <p>
  * -Xmx10m -Xms10m -XX:+PrintGCDetails -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath="D:/f.dump"
  *
  * @author Administrator

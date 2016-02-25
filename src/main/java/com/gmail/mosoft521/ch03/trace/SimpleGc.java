@@ -10,14 +10,14 @@ import java.util.List;
  * -XX:+PrintGCTimeStamps
  * -XX:+PrintGCApplicationConcurrentTime
  * -XX:+PrintGCApplicationStoppedTime
- * <p/>
+ * <p>
  * -XX:+PrintReferenceGC
- * <p/>
+ * <p>
  * -XX:+PrintHeapAtGC
- * <p/>
+ * <p>
  * -XX:+PrintVMOptions  -XX:+PrintCommandLineFlags
  * -XX:+PrintFlagsFinal  打印所有
- * <p/>
+ * <p>
  * -Xloggc:log/gc.log
  *
  * @author geym

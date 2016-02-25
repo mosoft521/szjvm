@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * JDK6
  * -XX:MaxPermSize=5m
  * ava.lang.OutOfMemoryError: PermGen space
- * <p/>
+ * <p>
  * JDK7
  * -XX:MaxPermSize=5m -XX:+PrintGC
  * 分配在堆

@@ -4,7 +4,7 @@ package com.gmail.mosoft521.ch03.heap.newsize;
  * -Xmx20m -Xms20m -Xmn1m   -XX:SurvivorRatio=2 -XX:+PrintGCDetails
  * -Xmx20m -Xms20m -Xmn7m   -XX:SurvivorRatio=2 -XX:+PrintGCDetails
  * -Xmx20m -Xms20m -Xmn15m  -XX:SurvivorRatio=8 -XX:+PrintGCDetails
- * <p/>
+ * <p>
  * -Xmx20M -Xms20M -XX:NewRatio=2  -XX:+PrintGCDetails
  *
  * @author Geym
