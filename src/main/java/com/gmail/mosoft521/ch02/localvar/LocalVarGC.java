@@ -2,6 +2,11 @@ package com.gmail.mosoft521.ch02.localvar;
 
 // -XX:+PrintGC
 public class LocalVarGC {
+    public static void main(String[] args) {
+        LocalVarGC ins = new LocalVarGC();
+        ins.localVarGc5();
+    }
+
     public void localVarGc1() {
         byte[] a = new byte[6 * 1024 * 1024];
         System.gc();
@@ -31,11 +36,6 @@ public class LocalVarGC {
     public void localVarGc5() {
         localVarGc1();
         System.gc();
-    }
-
-    public static void main(String[] args) {
-        LocalVarGC ins = new LocalVarGC();
-        ins.localVarGc5();
     }
 }
 /*

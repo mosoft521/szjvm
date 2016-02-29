@@ -11,7 +11,7 @@ public class IntNumber {
         }
         System.out.println();
 //        System.out.println(Integer.toBinaryString(a));
-        System.out.println(Strings.padStart(Integer.toBinaryString(a),32, '0'));
+        System.out.println(Strings.padStart(Integer.toBinaryString(a), 32, '0'));
     }
 }
 /*

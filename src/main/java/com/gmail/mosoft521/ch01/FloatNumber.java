@@ -7,7 +7,7 @@ public class FloatNumber {
         float f = -5;
         System.out.println(f);
 //        System.out.println(Integer.toBinaryString(Float.floatToRawIntBits(f)));
-        System.out.println(Strings.padStart(Integer.toBinaryString(Float.floatToRawIntBits(f)),32, '0'));
+        System.out.println(Strings.padStart(Integer.toBinaryString(Float.floatToRawIntBits(f)), 32, '0'));
     }
 }
 /*
